@@ -6,7 +6,7 @@
 
 
 @section('title')
-  <title>Booking</title>
+  <title>Acceuil</title>
 @endsection
 
 @section('style')
@@ -103,7 +103,7 @@
 									</div>
 									<div class="col-lg-3 col-sm-6">
 										<select class="form-select form-select-md mb-3 mb-lg-0" aria-label=".form-select-md example" name="property-type">
-											<option selected>Type de propriété</option>
+											<option selected>Types de propriétés</option>
 											<option value="Residential">piece</option>
 											<option value="Commercial">chambre salon</option>
 											<option value="Commercial">villa</option>
@@ -333,8 +333,8 @@
 		<!-- autre propriete -->
 		<section class="home-featured-property category-tab spacer mb-2">
 			<div class="container">
-				<h2 class="text-center">Autres Propietes</h2>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h2 class="text-center">Propriétés disponibles</h2>
+				<p class="text-center">Recherchez celle qui convient à votre goût.</p>
 				<div class="product-content">
 					<div class="row justify-content-center mb-4">
 						<div class="col-md-8">
@@ -565,7 +565,7 @@
 		<section class="home-featured-property spacer">
 			<div class="container">
 				<h2 class="text-center">Propriétés en vedette</h2>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="text-center">Ces propriétés sont de hauts standing et privilégiés</p>
 				<div class="owl-carousel owl-theme featured-property-carousel mt-5">
 					<div class="featured-item h-100">
 						<div class="card h-100">
@@ -611,84 +611,23 @@
 		<!-- propriete en vedette -->
 
 
-
-
-		<!-- Nos services -->
-		<section class="home-category-section mt-5">
-			<div class="container">
-				<h2 class="text-center">Nos Services</h2>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<div class="row justify-content-center mt-3">
-					<div class="col-lg-2 col-md-4 mb-3 mb-md-0">
-						<div class="card border-0 category-box">
-							<div class="card-body text-center">
-								<img src="{{asset('assets/client/images/category-1.png')}}" alt="category-image" class="img-fluid mb-3">
-								<h3 class="font-20"><a href="#" class="text-decoration-none stretched-link">Apartments</a></h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-4 mb-3 mb-md-0">
-						<div class="card border-0 category-box">
-							<div class="card-body text-center">
-								<img src="{{asset('assets/client/images/category-2.png')}}" alt="category-image" class="img-fluid mb-3">
-								<h3 class="font-20"><a href="#" class="text-decoration-none stretched-link">Houses</a></h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-4 mb-3 mb-md-0">
-						<div class="card border-0 category-box">
-							<div class="card-body text-center">
-								<img src="{{asset('assets/client/images/category-3.png')}}" alt="category-image" class="img-fluid mb-3">
-								<h3 class="font-20"><a href="#" class="text-decoration-none stretched-link">Rental House</a></h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-4 mb-3 mb-md-0">
-						<div class="card border-0 category-box">
-							<div class="card-body text-center">
-								<img src="{{asset('assets/client/images/category-4.png')}}" alt="category-image" class="img-fluid mb-3">
-								<h3 class="font-20"><a href="#" class="text-decoration-none stretched-link">Commercial</a></h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-4 mb-3 mb-md-0">
-						<div class="card border-0 category-box">
-							<div class="card-body text-center">
-								<img src="{{asset('assets/client/images/category-5.png')}}" alt="category-image" class="img-fluid mb-3">
-								<h3 class="font-20"><a href="#" class="text-decoration-none stretched-link">Office</a></h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-4 mb-3 mb-md-0">
-						<div class="card border-0 category-box">
-							<div class="card-body text-center">
-								<img src="{{asset('assets/client/images/category-6.png')}}" alt="category-image" class="img-fluid mb-3">
-								<h3 class="font-20"><a href="#" class="text-decoration-none stretched-link">Family House</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Nos services -->
-
 		<!-- temoignage -->
 		<section class="home-testimonial-st2-section spacer">
             <div class="container">
-                <h2 class="text-center">Temoignage</h2>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2 class="text-center">Temoignages</h2>
+                <p class="text-center">Mots de quelques clients.</p>
                 <div class="owl-carousel owl-theme testimonial-carousal-st2 mt-5 text-center">
                     <!-- item -->
                     <div class="item">
                         <div class="card content text-center shadow border">
                             <div class="card-body p-4">
                                 <i class="fas fa-quote-right font-40 text-orange"></i>
-                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio facilis beatae.</p>
+                                <p class="mt-3">Au début, je me suis rendu sur le site juste pour surfer comme toujours mais j'ai fini par faire de bonnes à affaires avec eux. Vous êtes les meilleurs !</p>
                                 <div class="testimonial-img">
                                     <img src="{{asset('assets/client/images/agents/team-member1.jpg')}}" alt="testimonial-profile">
                                 </div>
-                                <h4 class="mt-3">John Doe</h4>
-                                <p class="mb-0">Estate Agent</p>
+                                <h4 class="mt-3">John AZIABLE</h4>
+                                <p class="mb-0">Directeur de NAZO GROUP</p>
                             </div>
                         </div>
                     </div>
@@ -699,12 +638,12 @@
                             <div class="card-body p-4">
                                 <i class="fas fa-quote-right font-40 text-orange"></i>
                             
-                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio facilis beatae.</p>
+                                <p class="mt-3">Ce fut vraiment un plaisir de faire affaire avec vous. Ce qui m'a le plus touché est le professionnalisme avec lequel vous agissez.</p>
                                 <div class="testimonial-img">
                                     <img src="{{asset('assets/client/images/agents/team-member2.png')}}" alt="testimonial-profile">
                                 </div>
-                                <h4 class="mt-3">John Doe</h4>
-                                <p class="mb-0">Estate Agent</p>
+                                <h4 class="mt-3">Eric KOMIVI</h4>
+                                <p class="mb-0">Expert commercial à la retraite</p>
                             </div>
                         </div>
                         
@@ -716,12 +655,12 @@
                             <div class="card-body p-4">
                                 <i class="fas fa-quote-right font-40 text-orange"></i>
                             
-                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio facilis beatae.</p>
+                                <p class="mt-3">Coucou. J'ai eu mon appartement grace à eux. Un grand merci !</p>
                                 <div class="testimonial-img">
                                     <img src="{{asset('assets/client/images/agents/team-member3.png')}}" alt="testimonial-profile">
                                 </div>
-                                <h4 class="mt-3">John Doe</h4>
-                                <p class="mb-0">Estate Agent</p>
+                                <h4 class="mt-3">Nadège ETOVE</h4>
+                                <p class="mb-0">Styliste Modéliste</p>
                             </div>
 
                         </div>
@@ -734,12 +673,12 @@
                             <div class="card-body p-4">
                                 <i class="fas fa-quote-right font-40 text-orange"></i>
                             
-                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio facilis beatae.</p>
+                                <p class="mt-3">J'aime le style avec lequel ils traitent leurs clients. Ce fut un réel plaisir !</p>
                                 <div class="testimonial-img">
                                     <img src="{{asset('assets/client/images/agents/team-member4.png')}}" alt="testimonial-profile">
                                 </div>
-                                <h4 class="mt-3">John Doe</h4>
-                                <p class="mb-0">Estate Agent</p>
+                                <h4 class="mt-3">Edouard DOE</h4>
+                                <p class="mb-0">Consultant financier</p>
                             </div>
 
                         </div>
@@ -751,33 +690,6 @@
             </div>
         </section>
 		<!-- temoignage -->
-
-		<!-- parteneiares -->
-		<section class="our-clients-section spacer mb-5">
-			<div class="container">
-				<h2 class="text-center">Nos partenaires</h2>
-				<p class="text-center">Nous travaillons uniquement avec les meilleures entreprises du monde entier</p>
- 				<ul class="list-unstyled d-md-flex d-block justify-content-between align-items-center mt-5">
-					<li>
-						<img class="img-fluid" src="{{asset('assets/client/images/clients/1.png')}}" alt="our-clients-img">
-					</li>
-					<li>
-						<img class="img-fluid" src="{{asset('assets/client/images/clients/2.png')}}" alt="our-clients-img">
-					</li>
-					<li>
-						<img class="img-fluid" src="{{asset('assets/client/images/clients/3.png')}}" alt="our-clients-img">
-					</li>
-					<li>
-						<img class="img-fluid" src="{{asset('assets/client/images/clients/4.png')}}" alt="our-clients-img">
-					</li>
-					<li>
-						<img class="img-fluid" src="{{asset('assets/client/images/clients/5.png')}}" alt="our-clients-img">
-					</li>
-				</ul>
-
-			</div>
-		</section>
-		<!-- parteneiares -->
 
 @endsection
 

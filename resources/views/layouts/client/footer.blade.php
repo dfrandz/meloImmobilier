@@ -5,7 +5,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="footer-about">
                     <h3 class="font-18 text-white">A propos du site</h3>
-                    <p class="mt-4 pt-2 pe-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora velit impedit, ratione voluptates minus modi quia quo!</p>
+                    <p class="mt-4 pt-2 pe-4">Vous êtes à la recherche de votre demeure à louer ou acheter ? Rassurez-vous ! Vous êtes au bon endroit ...</p>
                     <a href="#" class="text-body text-decoration-none">Read More <i class="fas fa-chevron-right ms-2"></i></a>
                 </div>
             </div>
@@ -17,10 +17,10 @@
                 <p class="pe-5 d-flex mb-3"><i class="fas fa-envelope mt-1 font-22 me-3"></i>sales@example.com</p>
             </div>
             <div class="col-md-12 col-lg-4 mt-4 mt-lg-0">
-                <h3 class="font-18 text-white">Restez à jour</h3>
+                <h3 class="font-18 text-white">Restez à jour sur nos nouvelles offres !</h3>
                 <form class="nl-form mt-4 pt-2">
                         <input type="email" class="form-control" id="email">
-                        <button type="submit" class="btn btn-warning py-2 px-4 mt-3">Submit</button>
+                        <button type="submit" class="btn btn-warning py-2 px-4 mt-3">Soumettre</button>
                 </form>
                 <ul class="list-unstyled list-inline footer-social-link mt-4 pt-3">
                     <li class="list-inline-item">
@@ -40,7 +40,7 @@
         </div>
         <div class="footer-bottom row">
             <div class="col-md-4 col-lg-6">
-                <p>© 2022. All rights reserved.</p>
+                <p>© 2023. All rights reserved.</p>
             </div>
             <div class="col-md-8 col-lg-6 text-md-end">
                 <ul class="list-inline footer-link">

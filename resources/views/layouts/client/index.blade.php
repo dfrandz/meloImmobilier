@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
-<!-- Mirrored from code-wrapper.com/royal-homes/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Mar 2023 12:54:46 GMT -->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -120,5 +119,4 @@
 	@yield('scripts')
 </body>
 
-<!-- Mirrored from code-wrapper.com/royal-homes/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Mar 2023 12:55:29 GMT -->
 </html>

@@ -2,9 +2,9 @@
     <div class="container">
         <div class="header">
             <nav class="navbar navbar-expand-lg navbar-dark top-navbar">
-                <a class="navbar-brand" href="https://code-wrapper.com/royal-homes">
-                    <img src="assets/images/logo1.png" class="logo logo-white" alt="LOGONE REALTY">
-                    <img src="assets/images/logo-dark.png" class="logo logo-dark" alt="LOGONE REALTY">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/client/images/logo1.png" class="logo logo-white" alt="LOGONE_REALTY">
+                    <img src="assets/client/images/logo-dark.png" class="logo logo-dark" alt="LOGONE_REALTY">
                 </a>
                 
                 <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse"
@@ -23,22 +23,22 @@
                             <a class="nav-link" href="{{route('home')}}" id="main-menu" role="button">Acceuil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('location')}}" id="main-menu" role="button" >Location</a>
+                            <a class="nav-link" href="{{route('location')}}" id="main-menu" role="button" >En Location</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('vente')}}" id="main-menu" role="button">En Vente</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('hotel')}}" id="main-menu" role="button">Meuble</a>
+                            <a class="nav-link" href="#" id="main-menu" role="button">Mes Favoris</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('hotel')}}" id="main-menu" role="button">Hotels</a>
+                            <a class="nav-link" href="{{route('services')}}" id="main-menu" role="button">Nos services</a>
                         </li>
                         <li class="nav-item dropdown">
                             {{-- <a class="nav-link" href="javascript: void(0)" id="main-menu" role="button">Blog</a> --}}
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('contact')}}">Contact</a>
+                            <a class="nav-link" href="{{route('contact')}}">Contacts</a>
                         </li>
                     </ul>
                     <a href="{{route('login')}}" class="btn btn-warning py-2 px-4 d-lg-block d-none">LOGIN</a>

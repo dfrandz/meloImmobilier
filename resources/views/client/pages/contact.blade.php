@@ -20,10 +20,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="breadcrumb-content position-relative">
-                        <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-white">Home</a></li>
-                            <li class="breadcrumb-item active text-white" aria-current="page">Contact</li>
-                        </ul>
+
                         <h1 class="breadcrumb-title text-white">Contactez-nous</h1>
                     </div>
                 </div>
@@ -79,7 +76,7 @@
                     <div class="card border-0 w-100 mt-5 mt-lg-0">
                         <div class="card-body p-4">
                             <h5>Contactez-nous</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida quis libero eleifend ornare. habitasse platea dictumst.</p>
+                            <p>Veuillez-nous contacter aux adresses suivantes :</p>
 
                             <div class="contact-item">
                                 <ul class="social-icons ps-0">
@@ -92,22 +89,22 @@
                             </div>
 
                             <div class="contact-item">
-                                <h5 class="font-18">Address</h5>
-                                <p>2780 River Road, Colorado Springs, USA</p>
+                                <h5 class="font-18">Addresse</h5>
+                                <p>2780 Lampapa, Lomé, TOGO</p>
                             </div>
                             
                             <div class="contact-item">
-                                <h5 class="font-18">Phone</h5>
+                                <h5 class="font-18">Téléphone</h5>
                                 <p>9876543210</p>
                             </div>
 
                             <div class="contact-item">
-                                <h5 class="font-18">Mail</h5>
+                                <h5 class="font-18">Email</h5>
                                 <p>info@example.com</p>
                             </div>
 
                             <div class="contact-item">
-                                <h5 class="font-18">Website</h5>
+                                <h5 class="font-18">Site web</h5>
                                 <p>example.com</p>
                             </div>
 
